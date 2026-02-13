@@ -1,0 +1,6 @@
+bot_database.db
+credentials.json
+token.json
+config.py
+__pycache__/
+.venv/
