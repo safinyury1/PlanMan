@@ -20,22 +20,30 @@
 
 ## Установка и запуск
 
-### 1. Подготовка папки
+### 1. Клонирование репозитория
+Скачайте проект на свой компьютер:
+```bash
+git clone https://github.com/safinyury1/PlanMan.git
+```
+```bash
+cd PlanMan
+```
+### 2. Подготовка папки
 Убедитесь, что у вас созданы файлы `main.py`, `database.py`, `calendar_service.py`, `config.py`.
 
-### 2. Установка зависимостей
+### 3. Установка зависимостей
 Выполните команду в терминале:
 ```bash
 pip install aiogram aiosqlite google-api-python-client google-auth-httplib2 google-auth-oauthlib apscheduler
 ```
-### 3. Запуск проекта
+### 4. Запуск проекта
 Для запуска бота выполните команды:
 ```bash
 python main.py
 ```
 После запуска в консоли должно появиться сообщение: `Бот запущен!`.
 
-### 4. Использование
+### 5. Использование
 Перейдите в Telegram по ссылке [t.me/plan_man_01bot](t.me/plan_man_01bot) `/start`. Следуйте инструкциям бота для авторизации вашего Google Календаря.
 
 ### Команды бота
